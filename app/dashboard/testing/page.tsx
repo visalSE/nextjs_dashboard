@@ -1,3 +1,9 @@
+import { CardSkeleton, CardsSkeleton } from '@/app/ui/skeletons';
+
 export default function Page() {
-  return <p>Testing Page</p>;
+  return (
+    <div>
+      <CardsSkeleton />
+    </div>
+  );
 }
